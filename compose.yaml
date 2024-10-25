@@ -1,0 +1,5 @@
+services:
+  ola-mundo:
+    image: .
+    ports:
+      - 8080:80
