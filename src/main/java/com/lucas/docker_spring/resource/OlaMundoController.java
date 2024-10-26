@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/ola-mundo")
+@RequestMapping()
 public class OlaMundoController {
     @GetMapping
     public ResponseEntity<String> get() {
